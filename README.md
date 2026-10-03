@@ -4,16 +4,25 @@ A modern, responsive multi-page restaurant website designed for **Saffron & Spic
 
 The project was built from scratch using **HTML5, CSS3, and JavaScript**, with a focus on clean structure, responsive layouts, consistent styling, and an intuitive user experience.
 
+---
+
 ## 🌐 Live Demo
 
 **Saffron & Spice Restaurant Website**
 
 https://shilpikumari08.github.io/saffron-spice-restaurant/
 
+---
+
 ## 📌 About the Project
+
 Saffron & Spice is a frontend restaurant website created as a web development and portfolio project.
+
 The website allows visitors to explore the restaurant, browse the menu, learn about the restaurant and chef, view the gallery, make a table reservation request, and access contact information.
+
 The design uses a warm Indian restaurant-inspired visual style with cream, terracotta, brown, and gold tones.
+
+---
 
 ## ✨ Features
 
@@ -70,22 +79,31 @@ The design uses a warm Indian restaurant-inspired visual style with cream, terra
 
 ### 📱 Responsive Design
 The website is designed to adapt to:
+
 - Desktop
 - Laptop
 - Tablet
 - Mobile devices
 
+---
+
 ## 🛠️ Technologies Used
-Technology | Purpose 
-HTML5 | Website structure and content 
-CSS3 | Styling, layouts, responsive design, transitions, and hover states 
-JavaScript | Navigation, menu filtering, and form interactions 
-Google Fonts | Typography 
-Git | Version control 
-GitHub | Source code hosting 
-GitHub Pages | Website deployment 
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure and content |
+| CSS3 | Styling, layouts, responsive design, transitions, and hover states |
+| JavaScript | Navigation, menu filtering, and form interactions |
+| Google Fonts | Typography |
+| Git | Version control |
+| GitHub | Source code hosting |
+| GitHub Pages | Website deployment |
+
+---
 
 ## 📂 Project Structure
+
+```text
 saffron-spice-restaurant/
 │
 ├── css/
