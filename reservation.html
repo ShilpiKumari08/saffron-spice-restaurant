@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Reserve a table at Saffron & Spice."
+    >
+
+    <meta
+        name="theme-color"
+        content="#bd4f2d"
+    >
+
+    <title>Reservation | Saffron & Spice</title>
+
+
+    <!-- ==================== GOOGLE FONTS ==================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ==================== FAVICON ==================== -->
+
+    <link
+        rel="icon"
+        href="favicon.svg"
+    >
+
+
+    <!-- ==================== CSS ==================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================== HEADER ==================== -->
+
+    <header class="site-header">
+
+        <!-- Logo -->
+        <a
+            class="logo"
+            href="index.html"
+        >
+            Saffron &amp; Spice
+        </a>
+
+
+        <!-- Mobile Menu Button -->
+        <button
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+
+        <!-- Navigation -->
+        <nav class="site-nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="menu.html">
+                Menu
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a  class="active"
+                href="reservation.html">
+                Reservation
+            </a>
+
+            <a
+                href="contact.html"
+            >
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- Reservation Button -->
+        <a
+            class="button button-small"
+            href="reservation.html"
+        >
+            Book a Table
+        </a>
+
+    </header>
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+
+    <main>
+
+
+        <!-- ==================== PAGE HERO ==================== -->
+
+        <section class="page-hero section-shell">
+
+            <div>
+
+                <p class="eyebrow">
+                    MAKE A RESERVATION
+                </p>
+
+                <h1>
+                    Your table is
+                    <br>
+                    <em>waiting.</em>
+                </h1>
+
+                <p>
+                    Join us for an unforgettable dining experience
+                    filled with flavour, warmth and hospitality.
+                </p>
+
+            </div>
+
+
+            <div class="page-hero-image">
+
+                <img
+                    src="images/restaurant.png"
+                    alt="Restaurant dining room"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== RESERVATION SECTION ==================== -->
+
+        <section class="section section-shell reservation-layout">
+
+
+            <!-- ==================== RESERVATION FORM ==================== -->
+
+            <form
+                class="reservation-form"
+                id="reservationForm"
+            >
+
+                <h2>
+                    Reservation details
+                </h2>
+
+
+                <div class="form-grid">
+
+
+                    <!-- Name -->
+                    <label>
+
+                        Your Name
+
+                        <input
+                            name="name"
+                            type="text"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </label>
+
+
+                    <!-- Phone -->
+                    <label>
+
+                        Phone Number
+
+                        <input
+                            name="phone"
+                            type="tel"
+                            placeholder="+91 98765 43210"
+                            required
+                        >
+
+                    </label>
+
+
+                    <!-- Email -->
+                    <label>
+
+                        Email Address
+
+                        <input
+                            name="email"
+                            type="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </label>
+
+
+                    <!-- Date -->
+                    <label>
+
+                        Date
+
+                        <input
+                            name="date"
+                            type="date"
+                            required
+                        >
+
+                    </label>
+
+
+                    <!-- Time -->
+                    <label>
+
+                        Time
+
+                        <select
+                            name="time"
+                            required
+                        >
+
+                            <option value="">
+                                Select time
+                            </option>
+
+                            <option value="12:30 PM">
+                                12:30 PM
+                            </option>
+
+                            <option value="1:30 PM">
+                                1:30 PM
+                            </option>
+
+                            <option value="7:00 PM">
+                                7:00 PM
+                            </option>
+
+                            <option value="8:00 PM">
+                                8:00 PM
+                            </option>
+
+                            <option value="9:00 PM">
+                                9:00 PM
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <!-- Guests -->
+                    <label>
+
+                        Guests
+
+                        <select
+                            name="guests"
+                            required
+                        >
+
+                            <option value="">
+                                Select guests
+                            </option>
+
+                            <option value="1-2">
+                                1–2 Guests
+                            </option>
+
+                            <option value="3-4">
+                                3–4 Guests
+                            </option>
+
+                            <option value="5-6">
+                                5–6 Guests
+                            </option>
+
+                            <option value="7+">
+                                7+ Guests
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <!-- Special Occasion -->
+                    <label>
+
+                        Special Occasion
+
+                        <select
+                            name="occasion"
+                        >
+
+                            <option value="none">
+                                None
+                            </option>
+
+                            <option value="birthday">
+                                Birthday
+                            </option>
+
+                            <option value="anniversary">
+                                Anniversary
+                            </option>
+
+                            <option value="business-dinner">
+                                Business Dinner
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <!-- Additional Requests -->
+                    <label>
+
+                        Additional Requests
+
+                        <textarea
+                            name="requests"
+                            placeholder="Tell us anything we should know"
+                        ></textarea>
+
+                    </label>
+
+                </div>
+
+
+                <!-- Submit Button -->
+                <button
+                    class="button"
+                    type="submit"
+                >
+                    Reserve Table
+                </button>
+
+
+                <!-- Form Message -->
+                <p
+                    class="form-message"
+                    id="formMessage"
+                ></p>
+
+            </form>
+
+
+            <!-- ==================== INFORMATION CARD ==================== -->
+
+            <aside class="info-card">
+
+                <p class="eyebrow">
+                    WHY DINE WITH US?
+                </p>
+
+                <h3>
+                    A table worth remembering.
+                </h3>
+
+
+                <ul>
+
+                    <li>
+                        Authentic Indian flavours
+                    </li>
+
+                    <li>
+                        Warm ambience
+                    </li>
+
+                    <li>
+                        Fresh ingredients
+                    </li>
+
+                    <li>
+                        Attentive service
+                    </li>
+
+                </ul>
+
+
+                <hr>
+
+
+                <p>
+
+                    <strong>
+                        Need help?
+                    </strong>
+
+                    <br>
+
+                    +91 98765 43210
+
+                    <br>
+
+                    hello@saffronspice.com
+
+                </p>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="site-footer">
+
+        <div class="section-shell footer-grid">
+
+
+            <!-- Brand -->
+            <div>
+
+                <a
+                    class="logo"
+                    href="index.html"
+                >
+                    Saffron &amp; Spice
+                </a>
+
+                <p>
+                    Authentic flavours. Timeless traditions.
+                </p>
+
+            </div>
+
+
+            <!-- Explore -->
+            <div>
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="menu.html">
+                    Menu
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+            </div>
+
+
+            <!-- Visit -->
+            <div>
+
+                <h4>
+                    Visit
+                </h4>
+
+                <p>
+                    123 Spice Street
+                    <br>
+                    Rajkot, Gujarat
+                </p>
+
+                <p>
+                    +91 98765 43210
+                </p>
+
+            </div>
+
+
+            <!-- Opening Hours -->
+            <div>
+
+                <h4>
+                    Hours
+                </h4>
+
+                <p>
+                    Mon–Sun
+                    <br>
+                    11:00 AM – 11:00 PM
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+
+            © 2026 Saffron &amp; Spice. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

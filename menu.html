@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Explore the Saffron & Spice Indian restaurant menu."
+    >
+
+    <meta
+        name="theme-color"
+        content="#bd4f2d"
+    >
+
+    <title>Menu | Saffron & Spice</title>
+
+
+    <!-- ==================== GOOGLE FONTS ==================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ==================== FAVICON ==================== -->
+
+    <link
+        rel="icon"
+        href="favicon.svg"
+    >
+
+
+    <!-- ==================== CSS ==================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================== HEADER ==================== -->
+
+    <header class="site-header">
+
+        <a
+            class="logo"
+            href="index.html"
+        >
+            Saffron &amp; Spice
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+
+        <nav class="site-nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a
+                class="active"
+                href="menu.html"
+            >
+                Menu
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="reservation.html">
+                Reservation
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a
+            class="button button-small"
+            href="reservation.html"
+        >
+            Book a Table
+        </a>
+
+    </header>
+
+
+    <!-- ==================== MAIN ==================== -->
+
+    <main>
+
+
+        <!-- ==================== PAGE HERO ==================== -->
+
+        <section class="page-hero section-shell">
+
+            <div>
+
+                <p class="eyebrow">
+                    OUR MENU
+                </p>
+
+                <h1>
+                    A journey through
+                    <br>
+                    <em>Indian flavours.</em>
+                </h1>
+
+                <p>
+                    From timeless classics to modern favourites,
+                    every dish is prepared with care.
+                </p>
+
+            </div>
+
+
+            <div class="page-hero-image">
+
+                <img
+                    src="images/biryani.png"
+                    alt="Indian biryani"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== MENU ==================== -->
+
+        <section class="section menu-page">
+
+            <div class="section-shell">
+
+
+                <!-- FILTERS -->
+
+                <div class="filter-bar">
+
+                    <button
+                        class="filter active"
+                        type="button"
+                        data-filter="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter"
+                        type="button"
+                        data-filter="starter"
+                    >
+                        Starters
+                    </button>
+
+                    <button
+                        class="filter"
+                        type="button"
+                        data-filter="main"
+                    >
+                        Main Course
+                    </button>
+
+                    <button
+                        class="filter"
+                        type="button"
+                        data-filter="biryani"
+                    >
+                        Biryani
+                    </button>
+
+                    <button
+                        class="filter"
+                        type="button"
+                        data-filter="bread"
+                    >
+                        Breads
+                    </button>
+
+                    <button
+                        class="filter"
+                        type="button"
+                        data-filter="dessert"
+                    >
+                        Desserts
+                    </button>
+
+                </div>
+
+
+                <!-- MENU ITEMS -->
+
+                <div class="menu-list">
+
+
+                    <!-- STARTERS -->
+
+                    <article
+                        class="menu-item"
+                        data-category="starter"
+                    >
+
+                        <img
+                            src="images/paneer-tikka.png"
+                            alt="Paneer Tikka"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Paneer Tikka
+                            </h3>
+
+                            <p>
+                                Char-grilled paneer, peppers and house spices.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹249
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="starter"
+                    >
+
+                        <img
+                            src="images/kebab.png"
+                            alt="Hara Bhara Kebab"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Hara Bhara Kebab
+                            </h3>
+
+                            <p>
+                                Spinach, peas and aromatic herbs.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹229
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="starter"
+                    >
+
+                        <img
+                            src="images/samosa.png"
+                            alt="Classic Samosa"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Classic Samosa
+                            </h3>
+
+                            <p>
+                                Crisp pastry filled with spiced potatoes.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹149
+                        </strong>
+
+                    </article>
+
+
+                    <!-- MAIN COURSE -->
+
+                    <article
+                        class="menu-item"
+                        data-category="main"
+                    >
+
+                        <img
+                            src="images/butter-chicken.png"
+                            alt="Butter Chicken"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Butter Chicken
+                            </h3>
+
+                            <p>
+                                Smoky chicken in creamy tomato gravy.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹349
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="main"
+                    >
+
+                        <img
+                            src="images/kadai-paneer.png"
+                            alt="Kadai Paneer"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Kadai Paneer
+                            </h3>
+
+                            <p>
+                                Paneer, peppers and roasted kadai spices.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹299
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="main"
+                    >
+
+                        <img
+                            src="images/dal-makhani.png"
+                            alt="Dal Makhani"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Dal Makhani
+                            </h3>
+
+                            <p>
+                                Slow-cooked black lentils with butter.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹249
+                        </strong>
+
+                    </article>
+
+
+                    <!-- BIRYANI -->
+
+                    <article
+                        class="menu-item"
+                        data-category="biryani"
+                    >
+
+                        <img
+                            src="images/chicken-biryani.png"
+                            alt="Chicken Biryani"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Chicken Biryani
+                            </h3>
+
+                            <p>
+                                Basmati rice, saffron, chicken and whole spices.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹299
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="biryani"
+                    >
+
+                        <img
+                            src="images/mutton-biryani.png"
+                            alt="Mutton Biryani"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Mutton Biryani
+                            </h3>
+
+                            <p>
+                                Slow-cooked mutton layered with fragrant rice.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹379
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="biryani"
+                    >
+
+                        <img
+                            src="images/veg-biryani.png"
+                            alt="Veg Biryani"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Veg Biryani
+                            </h3>
+
+                            <p>
+                                Seasonal vegetables, basmati rice and saffron.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹249
+                        </strong>
+
+                    </article>
+
+
+                    <!-- BREADS -->
+
+                    <article
+                        class="menu-item"
+                        data-category="bread"
+                    >
+
+                        <img
+                            src="images/butter-naan.png"
+                            alt="Butter Naan"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Butter Naan
+                            </h3>
+
+                            <p>
+                                Soft tandoor-baked naan finished with butter.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹49
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="bread"
+                    >
+
+                        <img
+                            src="images/garlic-naan.png"
+                            alt="Garlic Naan"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Garlic Naan
+                            </h3>
+
+                            <p>
+                                Fresh naan with garlic, coriander and butter.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹69
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="bread"
+                    >
+
+                        <img
+                            src="images/lachha-paratha.png"
+                            alt="Lachha Paratha"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Lachha Paratha
+                            </h3>
+
+                            <p>
+                                Layered, flaky and crisp tandoor bread.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹59
+                        </strong>
+
+                    </article>
+
+
+                    <!-- DESSERTS -->
+
+                    <article
+                        class="menu-item"
+                        data-category="dessert"
+                    >
+
+                        <img
+                            src="images/gulab-jamun.png"
+                            alt="Gulab Jamun"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Gulab Jamun
+                            </h3>
+
+                            <p>
+                                Warm milk dumplings in saffron syrup.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹129
+                        </strong>
+
+                    </article>
+
+
+                    <article
+                        class="menu-item"
+                        data-category="dessert"
+                    >
+
+                        <img
+                            src="images/rasmalai.png"
+                            alt="Rasmalai"
+                        >
+
+                        <div class="menu-item-content">
+
+                            <h3>
+                                Rasmalai
+                            </h3>
+
+                            <p>
+                                Soft cheese dumplings in chilled saffron milk.
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹149
+                        </strong>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="site-footer">
+
+        <div class="section-shell footer-grid">
+
+            <div>
+
+                <a
+                    class="logo"
+                    href="index.html"
+                >
+                    Saffron &amp; Spice
+                </a>
+
+                <p>
+                    Authentic flavours. Timeless traditions.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="menu.html">
+                    Menu
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Visit
+                </h4>
+
+                <p>
+                    123 Spice Street
+                    <br>
+                    Rajkot, Gujarat
+                </p>
+
+                <p>
+                    +91 98765 43210
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Hours
+                </h4>
+
+                <p>
+                    Mon–Sun
+                    <br>
+                    11:00 AM – 11:00 PM
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © 2026 Saffron &amp; Spice. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
